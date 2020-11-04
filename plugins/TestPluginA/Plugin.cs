@@ -29,7 +29,7 @@ namespace TestPluginA
 
         public override Task StopAsync(IPluginContext context)
         {
-            Console.WriteLine("插件B已停止");
+            Console.WriteLine("插件A已停止");
             return base.StopAsync(context);
         }
     }
