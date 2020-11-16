@@ -6,10 +6,13 @@ MinimumVisualStudioVersion = 15.0.26124.0
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{F8A4F77A-8A0D-4E8E-9FD8-773E526C4004}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp.Example", "src\ConsoleApp.Example\ConsoleApp.Example.csproj", "{CC40F879-4A4B-45E0-AE2D-CB1E6581E78D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{8FF08457-E8C6-4D57-A879-3BC12DAACD6C} = {8FF08457-E8C6-4D57-A879-3BC12DAACD6C}
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "plugins", "plugins", "{A386E298-8275-416D-8D5C-F27E5D48301D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestPluginA", "plugins\TestPluginA\TestPluginA.csproj", "{8FF08457-E8C6-4D57-A879-3BC12DAACD6C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestPluginA", "plugins\TestPluginA\TestPluginA.csproj", "{8FF08457-E8C6-4D57-A879-3BC12DAACD6C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
